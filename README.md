@@ -1,39 +1,39 @@
-# Neural Network Grade Prediction Model
+# Neural Network Grade Prediction Model (Demonstration Project)
 
 ## Overview
 
-🚀 **Welcome to the Neural Network Grade Prediction Model!** 🚀
+🚀 **Welcome to the Neural Network Grade Prediction Model demonstration project!** 🚀
 
-In this project, I developed a robust Python-based system that combines neural network techniques with comprehensive data processing to predict student acceptance decisions. The model evaluates student performance using TEAS scores, GPA, and additional criteria, and is designed to process data from various file formats—including PDF, CSV, JSON, and TXT.
+This project showcases a Python-based system that combines neural network techniques with data processing to predict student acceptance decisions.  **It is important to note that this project uses *sample* data for demonstration purposes only.**  It is *not* intended for use with real student data without explicit permission from the relevant authorities and adherence to data privacy regulations.  The model evaluates student performance using simulated TEAS scores, GPA, and additional criteria, and is designed to process data from various file formats—including PDF, CSV, JSON, and TXT.
 
-**Key Benefits:**
-- **Hybrid Evaluation System:** Integrates a neural network model with traditional evaluation functions to assess student readiness.
-- **Multi-Format Data Integration:** Seamlessly extracts and processes data from PDFs, CSVs, JSON files, and text files.
+**Key Features (Demonstration):**
+- **Hybrid Evaluation System:** Integrates a neural network model with traditional evaluation functions to simulate student readiness assessment.
+- **Multi-Format Data Integration:** Demonstrates the capability to extract and process data from PDFs, CSVs, JSON files, and text files.
 - **Neural Network Implementation:** Utilizes a simple neural network with 2 input neurons, 4 hidden neurons, and 1 output neuron. The model performs both forward and backward passes, updating weights via gradient descent.
-- **Automated Grade Prediction:** Automatically generates test data, evaluates student records, and exports results for further analysis.
+- **Automated Grade Prediction:**  Demonstrates the automated generation of *sample* test data, evaluation of simulated student records, and export of results for analysis.
 
 ---
 
 ## Features
 
-- **Neural Network Architecture**  
-  - **Structure:** 2 input neurons, 4 hidden neurons, and 1 output neuron.
-  - **Forward Pass:** Processes inputs through layers using weights, biases, and a sigmoid activation function.
-  - **Backward Pass:** Calculates gradients of the loss with respect to weights and biases and updates them via gradient descent.
+- **Neural Network Architecture**  
+  - **Structure:** 2 input neurons, 4 hidden neurons, and 1 output neuron.
+  - **Forward Pass:** Processes inputs through layers using weights, biases, and a sigmoid activation function.
+  - **Backward Pass:** Calculates gradients of the loss with respect to weights and biases and updates them via gradient descent.
 
-- **Comprehensive Data Processing**  
-  - **PDF Extraction:** Uses `PyPDF2` and `tabula-py` to extract text and table data.
-  - **Multi-Format Support:** Includes dedicated processors for CSV, JSON, and TXT files.
-  - **Dynamic Header Management:** Automatically updates and maintains data headers during processing.
+- **Comprehensive Data Processing**  
+  - **PDF Extraction:** Uses `PyPDF2` and `tabula-py` to extract text and table data.
+  - **Multi-Format Support:** Includes dedicated processors for CSV, JSON, and TXT files.
+  - **Dynamic Header Management:** Automatically updates and maintains data headers during processing.
 
-- **Grade Prediction & Evaluation**  
-  - Evaluates student acceptance based on TEAS scores, GPA, and predefined criteria.
-  - Generates synthetic test data for validation and testing purposes.
-  - Exports processed results to an Excel file (`Name&Teas.xlsx`) for easy review.
+- **Grade Prediction & Evaluation (Demonstration):**  
+  - Simulates student acceptance evaluation based on *sample* TEAS scores, GPA, and predefined criteria.
+  - Generates synthetic test data for demonstration and testing purposes.
+  - Exports processed results to an Excel file (`Name&Teas.xlsx`) for easy review.
 
-- **Modular & Extensible Design**  
-  - Organized into clear, dedicated classes (`PDFProcessor`, `CSVProcessor`, `JSONProcessor`, `TXTProcessor`) for easy maintenance and future expansion.
-  - Seamlessly combines multiple data sources into unified DataFrames.
+- **Modular & Extensible Design**  
+  - Organized into clear, dedicated classes (`PDFProcessor`, `CSVProcessor`, `JSONProcessor`, `TXTProcessor`) for easy maintenance and future expansion.
+  - Seamlessly combines multiple data sources into unified DataFrames.
 
 ---
 
@@ -78,7 +78,7 @@ In this project, I developed a robust Python-based system that combines neural n
 ## Usage
 
 1. **Prepare Your Data File**  
-   Place your data file (PDF, CSV, JSON, or TXT) in the designated directory (e.g., `static/testData`).
+   Place your data file (PDF, CSV, JSON, or TXT) in the designated directory (e.g., `static/testData`).  **Note: This project is intended for use with *sample* or *synthetic* data only.  Do not use real student data without proper authorization.**
 
 2. **Run the Notebook or Script**  
    - **Jupyter Notebook:**  
@@ -137,7 +137,7 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## License
 
-This project is not licensed for public use. Please do not use or adapt the code without permission.
+This project is not licensed for public use. Please do not use or adapt the code without permission.  **Furthermore, this code should not be used with real student data without explicit consent and adherence to all applicable data privacy laws and regulations.**
 
 ---
 
