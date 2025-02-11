@@ -143,6 +143,8 @@ This project is not licensed for public use. Please do not use or adapt the code
 
 ## Acknowledgments
 
+- **Supervisor:**
+  I would like to thank my supervisor, Paul Schroeder, for his support, guidance, and the autonomy he granted me, which were essential to the successful completion of this project.
 - **Libraries & Tools:**  
   Special thanks to the developers behind `numpy`, `pandas`, `tabula-py`, `PyPDF2`, and `pdfminer.six` for their indispensable libraries.
 - **Feedback & Inspiration:**  
