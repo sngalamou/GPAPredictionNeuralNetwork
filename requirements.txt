@@ -1,0 +1,4 @@
+numpy
+pandas
+tabula-py  # Note: The import is "tabula", but the package is often installed as "tabula-py"
+PyPDF2
