@@ -282,7 +282,7 @@ def main():
     
     # Prompt user for the file name (including extension)
     file_name = input("Enter the file name (including extension): ")
-    base_path = os.path.join("C:\\Users\\Lucien\\Desktop\\data science\\NursingLabDatabaseProject\\static\\testData")
+    base_path = os.path.join("testData")
     file_path = os.path.join(base_path, file_name)
 
     if not os.path.isfile(file_path):
@@ -351,6 +351,6 @@ if __name__ == "__main__":
         df['Predicted_GPA'] = predicted_gpa
         
         # Export results to Excel
-        df.to_excel("Name&Teas.xlsx", sheet_name='Name & Tease Scores')
+        df.to_excel("Name&TestScores.xlsx", sheet_name='Name & Tease Scores')
     else:
         print("No data to process.")
